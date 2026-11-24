@@ -1,2 +1,2 @@
 # kronix-regulament-jucatori
-Regulamentul al jucatorilor official al serverului KRONIX
+Regulamentul official jucatorilor al serverului KRONIX
