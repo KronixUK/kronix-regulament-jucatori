@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KRONIX — Forgotten Lands | Regulament Jucători</title>
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card: #141620;
+      --accent: #a855f7;
+      --gold: #f59e0b;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(circle at top, #1e1336 0%, var(--bg) 52%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 28px 16px 64px;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 32px 22px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      margin-bottom: 20px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+    }
+
+    header h1 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      letter-spacing: 1px;
+      color: #fff;
+    }
+
+    header h1 span {
+      color: var(--accent);
+    }
+
+    header p {
+      color: var(--muted);
+      margin-top: 8px;
+      font-size: 0.96rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 5px 14px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      background: rgba(168, 85, 247, 0.16);
+      color: #d8b4fe;
+      border: 1px solid rgba(168, 85, 247, 0.35);
+    }
+
+    .intro-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 14px;
+      padding: 18px 22px;
+      margin-bottom: 18px;
+      color: #e5e7eb;
+      font-size: 0.95rem;
+    }
+
+    .intro-box p + p {
+      margin-top: 8px;
+      color: var(--muted);
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 1.22rem;
+      margin-bottom: 16px;
+      color: var(--gold);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+
+    .rule-item {
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      margin-bottom: 10px;
+    }
+
+    .rule-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .rule-num {
+      display: inline-block;
+      min-width: 28px;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .punishment {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 3px 10px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: rgba(245, 158, 11, 0.12);
+      color: #fcd34d;
+      border: 1px solid rgba(245, 158, 11, 0.25);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: 28px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>KRONIX — <span>FORGOTTEN LANDS</span></h1>
+      <p>Regulament și Pedepse Jucători</p>
+      <div class="badge">Regulament Oficial Jucători</div>
+    </header>
+
+    <div class="intro-box">
+      <p><strong>Regulament și Pedepse Jucători — KRONIX: FORGOTTEN LANDS</strong></p>
+      <p>Acest regulament este valabil pentru toți cei care intră pe server. Respectarea lui menține jocul curat, echilibrat și plăcut pentru toată lumea. Conducerea serverului poate modifica oricând aceste reguli fără preaviz, așa că îți recomandăm să mai arunci un ochi din când în când.</p>
+      <p>În cazul unei reclamații sau cereri, dovezile tăiate, editate sau scoase din context nu sunt luate în calcul, iar o reclamație făcută la misto sau fără bază reală se poate sancționa cu respingere directă ori avertisment.</p>
+    </div>
+
+    <section>
+      <h2>Chat și Comportament</h2>
+
+      <div class="rule-item">
+        <span class="rule-num">1.</span> Spam-ul de orice fel nu este permis (repetarea mesajelor, mesaje lungi aiurea, încercări de a ocoli filtrul de spam sau mesaje exagerate pe mai multe rânduri).<br />
+        <span class="punishment">Sancțiune: Mute 5–20 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">2.</span> Nu abuza de comenzi sau bug-uri ca să faci spam pe chat.<br />
+        <span class="punishment">Sancțiune: Avertisment urmat de Kick, apoi Ban 30 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">3.</span> Nu lungi aiurea cuvintele și nu bate tastatura la întâmplare pe chat (ex. loooool, asdasdasd, 123123123).<br />
+        <span class="punishment">Sancțiune: Mute 5–10 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">4.</span> Nu scrie cu CAPS LOCK prea mult (maxim câteva cuvinte scurte sunt ok, dar propozițiile sau mesajele lungi scrise doar cu litere mari sunt interzise).<br />
+        <span class="punishment">Sancțiune: Mute 5–20 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">5.</span> Păstrează bunul-simț pe chat și la evenimente: fără insulte grave, jigniri discriminatorii, amenințări, hărțuire sau atacuri la persoană.<br />
+        <span class="punishment">Sancțiune: Mute 10–30 minute (sau mai mult la abateri grave)</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">6.</span> Înjurăturile sau jignirile adresate membrilor staff sunt interzise.<br />
+        <span class="punishment">Sancțiune: Mute 10–40 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">7.</span> Jignirile care vizează familia sau rudele altor jucători nu sunt tolerate.<br />
+        <span class="punishment">Sancțiune: Mute 30 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">8.</span> Înjurăturile prescurtate, cenzurate cu simboluri sau semnele obscene pe chat sunt interzise.<br />
+        <span class="punishment">Sancțiune: Mute 5 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">9.</span> Dacă ai primit deja mute, nu folosi mesajele private (msg / reply) ca să înjuri sau să ataci un membru staff ori alt jucător.<br />
+        <span class="punishment">Sancțiune: Kick sau Ban 30 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">10.</span> Păstrează un limbaj curat și pe canalele de comunicare legate de server (Discord / chat dedicat).<br />
+        <span class="punishment">Sancțiune: Mute 10–20 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">11.</span> Nu pune înjurături, mesaje jignitoare sau semne obscene pe pancarte/semne, cărți, iteme redenumite, bannere sau zone/baze/insule.<br />
+        <span class="punishment">Sancțiune: Ștergerea obiectului/zonei și Ban 8 ore (la abateri grave)</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">12.</span> Nu jigni și nu amenința comunitatea sau serverul KRONIX — Forgotten Lands și nu strica intenționat atmosfera de joc a celorlalți.<br />
+        <span class="punishment">Sancțiune: Mute 1 oră (până la Mute 24 ore la toxicitate repetată)</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">13.</span> Este interzisă promovarea rasismului, discriminării de orice fel, hărțuirii sau divulgarea datelor personale ale altor persoane.<br />
+        <span class="punishment">Sancțiune: Mute 10–20 minute sau Ban în cazurile grave</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">14.</span> Nu provoca certuri gratuite, nu instiga la scandal și nu folosi un ton toxic sau batjocoritor față de alți jucători ori față de staff.<br />
+        <span class="punishment">Sancțiune: Mute 10–15 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">15.</span> Nu folosi /helpop sau comenzile de ajutor la caterincă, pentru spam sau fără un motiv real.<br />
+        <span class="punishment">Sancțiune: Avertisment urmat de Kick, apoi Ban 30 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">16.</span> Nu abuza de formatări/culori sau caractere speciale pe chat dacă îngreunează citirea sau încalcă regulile de lizibilitate.<br />
+        <span class="punishment">Sancțiune: Mute 30 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">17.</span> Nu te descărca prin frustrări sau ieșiri nervoase pe chat ori pe alți jucători când pierzi sau când nu îți iese ceva în joc.<br />
+        <span class="punishment">Sancțiune: Mute 5 minute</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Fair-Play, Mobi, Economie și Gameplay</h2>
+
+      <div class="rule-item">
+        <span class="rule-num">18.</span> Nu cere de la staff iteme, bani, MobCoins, niveluri de AuraSkills / Jobs, grade sau ajutor la construit pe creative. Gradele se obțin doar prin canalele oficiale sau suportul serverului.<br />
+        <span class="punishment">Sancțiune: Mute 10 minute</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">19.</span> Dacă un membru staff greșește și îți oferă sau lasă iteme/bani/avantaje necuvenite din mod creativ sau abuz, raportează situația și nu păstra avantajul.<br />
+        <span class="punishment">Sancțiune: Resetarea progresului/itemelor respective</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">20.</span> Exploatarea bug-urilor, a glitch-urilor de joc, a itemelor sparte sau a oricărei erori din sistemele serverului (mobi, drop-uri, MobCoins, Jobs, AuraSkills, cufere, zone) este strict interzisă. Raportează bug-ul în loc să profiți de el.<br />
+        <span class="punishment">Sancțiune: Resetare progres / Ban temporar sau permanent</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">21.</span> Hack-urile, cheat client-urile, X-Ray, auto-clicker-ele, macro-urile sau modurile/tool-urile care îți oferă avantaj neloial sunt interzise.<br />
+        <span class="punishment">Sancțiune: Ban 24h (prima abatere) • Ban 5 zile (a doua) • Ban permanent (a treia)</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">22.</span> Dacă ești verificat de staff pentru suspiciuni de hack, colaborează, nu ieși de pe server, nu ascunde dovezile și nu bloca verificarea.<br />
+        <span class="punishment">Sancțiune: Ban temporar sau permanent (inclusiv pe conturile secundare)</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">23.</span> Nu face echipă/înțelegeri neloiale cu jucători care folosesc hack-uri sau încalcă grav regulile.<br />
+        <span class="punishment">Sancțiune: Complicitate (Jail / Ban temporar)</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">24.</span> Nu folosi metode automate de anti-AFK sau ferme/mecanisme care păcălesc activitatea sau afectează economia serverului.<br />
+        <span class="punishment">Sancțiune: Jail / ștergerea mecanismului sau sancțiune de progresie</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">25.</span> Nu face scam, țepe la schimburi, vânzări înșelătoare sau păcăleli cu iteme/chei/obiecte redenumite.<br />
+        <span class="punishment">Sancțiune: Jail sau Ban temporar + anularea/returnarea tranzacției</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">26.</span> Nu sabota alți jucători la boss-i, evenimente, zone periculoase sau arenă (ex. blocat intenționat, tras mobi periculoși peste alții, stricat evenimente).<br />
+        <span class="punishment">Sancțiune: Jail / Kick / Ban temporar</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">27.</span> Respectă nivelul zonelor din Forgotten Lands: dacă intri în zone grele sau la boss-i nepregătit și mori, pierderea itemelor nu se compensează decât dacă este dovedit un bug real al serverului.
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">28.</span> Nu construi structuri indecente, ofensive sau menite doar să strice harta și experiența celorlalți.<br />
+        <span class="punishment">Sancțiune: Ștergerea construcției și Jail / Ban temporar</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Reclamă și Alte Reguli</h2>
+
+      <div class="rule-item">
+        <span class="rule-num">29.</span> Reclama directă la alte servere, comunități, link-uri externe sau promovarea agresivă fără acord este interzisă.<br />
+        <span class="punishment">Sancțiune: Mute 30 minute până la Mute / Ban permanent</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">30.</span> Nu încerca să ocolești o sancțiune intrând de pe alt cont (ban evade / mute evade).<br />
+        <span class="punishment">Sancțiune: Extinderea sancțiunii și pe conturile secundare</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">31.</span> Vânzarea sau schimbul de conturi ori avantaje din joc pe bani reali în afara regulilor serverului este interzisă.<br />
+        <span class="punishment">Sancțiune: Confiscarea bunurilor/avantajelor sau Ban</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">32.</span> Nu încurca staff-ul când verifică un jucător sau rezolvă o problemă și nu face mai multe reclamații inutile pe aceeași temă.<br />
+        <span class="punishment">Sancțiune: Kick / Jail / Ban temporar</span>
+      </div>
+
+      <div class="rule-item">
+        <span class="rule-num">33.</span> Abaterile repetate sau faptele comise când nu este niciun membru staff online, dovedite clar, pot atrage sancțiuni mai mari decât prima abatere.
+      </div>
+    </section>
+
+    <footer>
+      KRONIX — Forgotten Lands • Regulament Oficial Jucători
+    </footer>
+  </div>
+</body>
+</html>
